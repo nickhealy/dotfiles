@@ -6,5 +6,8 @@
 [core]
 	editor = nvim
 
+[credential]
+	helper = store
+
 [includeIf "gitdir:~/smarkets/.git"]
 	path = ~/.smarkets.gitconfig
