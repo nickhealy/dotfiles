@@ -9,5 +9,8 @@
 [credential]
 	helper = store
 
+[alias]
+	st = status
+
 [includeIf "gitdir:~/smarkets/.git"]
 	path = ~/.smarkets.gitconfig
