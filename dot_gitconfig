@@ -6,7 +6,6 @@
 [core]
 	editor = nvim
 
-# testing
 [credential]
 	helper = store
 
