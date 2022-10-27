@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Nicholas Healy
+	email = nickrhealy@gmail.com
+[core]
+	editor = nvim
+
+[includeIf "gitdir:~/smarkets/.git"]
+	path = ~/.smarkets.gitconfig
